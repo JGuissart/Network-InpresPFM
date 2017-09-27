@@ -1,0 +1,2 @@
+mot de passe --> azerty
+alias private key --> ServeurCompta

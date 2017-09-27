@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tfdPort" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnValider" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cbxBaseDeDonnees" alignment="0" pref="206" max="32767" attributes="0"/>
+                          <Component id="lblBaseDeDonnees" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSchema" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfdSchema" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblMotDePasse" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfdMotDePasse" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblAdresseIp" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfdAdresseIp" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblPort" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfdSID" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblBaseDeDonnees" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="cbxBaseDeDonnees" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblSchema" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfdSchema" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblMotDePasse" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfdMotDePasse" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="7" max="32767" attributes="0"/>
+              <Component id="lblSID" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfdSID" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblAdresseIp" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfdAdresseIp" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblPort" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfdPort" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnValider" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="tfdPort">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1521"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxBaseDeDonnees">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnValider">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valider"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnValiderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBaseDeDonnees">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Base de donn&#xe9;e : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSchema">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sch&#xe9;ma : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfdSchema">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BD_TRAFIC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMotDePasse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mot de passe : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfdMotDePasse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="azerty123"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdresseIp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adresse IP : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfdAdresseIp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="127.0.0.1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPort">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Port : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SID :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfdSID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="orcl"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

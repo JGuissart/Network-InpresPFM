@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ConnexionServlet</servlet-name>
+        <servlet-class>ServletUtiles.ConnexionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MagasinServlet</servlet-name>
+        <servlet-class>ServletUtiles.MagasinServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConnexionServlet</servlet-name>
+        <url-pattern>/ConnexionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MagasinServlet</servlet-name>
+        <url-pattern>/MagasinServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <listener>
+        <display-name>sessionListener</display-name>
+        <listener-class>ServletUtiles.MagasinServlet</listener-class>
+    </listener>
+</web-app>

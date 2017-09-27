@@ -1,0 +1,13 @@
+INSERT INTO Destination VALUES('Liege', 100, 45, NULL);
+INSERT INTO Destination VALUES('Oupeye', 10, 2, NULL);
+INSERT INTO Destination VALUES('Vise', 25, 10, 10);
+INSERT INTO Destination VALUES('Neupre', 50, 23, NULL);
+INSERT INTO Destination VALUES('Verviers', 125, 60, NULL);
+INSERT INTO Destination VALUES('Bruxelles', 45, 14, 100);
+INSERT INTO Destination VALUES('Wandre', 12, 5, 16);
+INSERT INTO Destination VALUES('Ostende', 100, 45, 126);
+INSERT INTO Destination VALUES('Anvers', 75, 45, 80);
+INSERT INTO Destination VALUES('Dortmund', 500, 480, 800);
+INSERT INTO Destination VALUES('Lille', 250, 150, NULL);
+INSERT INTO Destination VALUES('New-York', 5000, 4500, NULL);
+COMMIT;
